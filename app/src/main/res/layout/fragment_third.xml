@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context="com.ruet_cse_1503008.rawnak.snippet_bottom_navigation_viewpager2.Fragment.ThirdFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/third_fragment"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextThirdFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:autofillHints="Enter Text"
+        android:inputType="numberDecimal"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/buttonThirdFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zoom_amp_show_the_number_above"/>
+
+    <TextView
+        android:id="@+id/textViewThirdFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="80sp" />
+
+</LinearLayout>

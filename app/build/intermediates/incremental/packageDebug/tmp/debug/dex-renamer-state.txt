@@ -1,0 +1,4 @@
+#Tue Jun 08 07:35:47 BDT 2021
+base.0=/home/rawnak/AndroidStudioProjects/androidsnippetbottomnavigationviewpager2/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "COMPATIBLE_SCREEN_MANIFEST",
+    "kind": "Directory"
+  },
+  "applicationId": "com.ruet_cse_1503008.rawnak.android_snippet_bottom_navigation_viewpager2",
+  "variantName": "debug",
+  "elements": []
+}

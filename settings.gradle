@@ -1,0 +1,2 @@
+rootProject.name = "android-java-snippet-bottom-navigation-viewpager2"
+include ':app'

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_first"
+        android:checked="true"
+        android:title="@string/first"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_filter_1_24" />
+    <item
+        android:id="@+id/menu_second"
+        android:checked="false"
+        android:title="@string/second"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_filter_2_24"/>
+
+    <item
+        android:id="@+id/menu_third"
+        android:checked="false"
+        android:title="@string/third"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_filter_3_24"/>
+</menu>

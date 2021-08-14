@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.ruet_cse_1503008.rawnak.snippet_bottom_navigation_viewpager2.Fragment.FirstFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/first_fragment"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextFirstFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:autofillHints="Enter Text"
+        android:inputType="numberDecimal"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/buttonFirstFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zoom_amp_show_the_number_above"/>
+
+    <TextView
+        android:id="@+id/textViewFirstFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="80sp" />
+
+</LinearLayout>
